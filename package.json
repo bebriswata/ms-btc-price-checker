@@ -1,0 +1,14 @@
+{
+  "name": "bitcoin-price-service",
+  "version": "1.0.0",
+  "description": "Микросервис для получения цены биткоина с Binance с комиссией",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
